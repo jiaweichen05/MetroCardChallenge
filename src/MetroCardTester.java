@@ -59,5 +59,38 @@ public class MetroCardTester
     System.out.println(card5.swipe());          // true
     System.out.println(card5.swipe());          // false
 
+        //UnlimitedMetroCard Test
+        System.out.println("Test for Unlimited MetroCard");
+        UnlimitedMetroCard card6 = new UnlimitedMetroCard(true);
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        card6.nextDay();
+        System.out.println(card6.swipe()); //true
+        card6.switchStation();
+        System.out.println(card6.swipe()); //true
+        System.out.println(card6.swipe()); //false
+        System.out.println(card6.swipe()); //false
+        card6.switchStation();
+        System.out.println(card6.swipe()); //true
+        card6.nextDay();
+        System.out.println(card6.swipe()); //false
+
+
+
     }
 }
