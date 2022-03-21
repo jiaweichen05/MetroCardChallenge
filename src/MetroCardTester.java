@@ -26,14 +26,14 @@ public class MetroCardTester
         System.out.println("---------\n");
 
         // UNCOMMENT TO TEST EACH NEW CLASS
-/*
+
     System.out.println("New SingleRideMetroCard:");
     SingleRideMetroCard card3 = new SingleRideMetroCard();
     System.out.println(card3.swipe());          // true
     System.out.println(card3.swipe());          // false
     System.out.println("---------\n");
-*/
-/*
+
+
     System.out.println("New ReducedFareMetroCard with $4.00 balance:");
     ReducedFareMetroCard card4 = new ReducedFareMetroCard(4.00);
     System.out.println(card4.getBalance());     // 4.0
@@ -44,8 +44,8 @@ public class MetroCardTester
     System.out.println(card4.swipe());          // false
     System.out.println(card4.getBalance());     // 1.3
     System.out.println("---------\n");
-*/
-/*
+
+
     System.out.println("New StudentMetroCard (with 3 swipes):");
     StudentMetroCard card5 = new StudentMetroCard();
     System.out.println(card5.swipe());          // true
@@ -58,6 +58,6 @@ public class MetroCardTester
     System.out.println(card5.swipe());          // true
     System.out.println(card5.swipe());          // true
     System.out.println(card5.swipe());          // false
-*/
+
     }
 }
